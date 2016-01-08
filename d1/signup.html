@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+        		<meta name="viewport" content="width=device-width, initial-scale=1">
+        		<link href='http://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700|' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/sticky-nav.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+        <script src="js/jquery-1.8.2.js"></script>
+		<script src="js/jquery-ui.js"></script>
+        		<title> D1 </title>
+        <script>
+                $(function() {
+                $( "#calendario" ).datepicker({dateFormat: 'dd-mm-yy'});
+                });
+        </script>
+	</head>
+	<body>
+		<header id="top" class="relPosition top" style="background: white">
+            <div id="dummy" class="content row" style="padding-top:12%;">
+					<div>
+            <form class="contact_form" action="" method="post" name="contact_form">
+			<ul>
+    				<li>
+         					<h2 style="color:black">Sign Up</h2>
+                        
+    				</li>	
+    				<li>
+    				
+        					<label for="nome">Nome</label>
+        					<input type="text" name="nome" placeholder="Nome" requerid/>                               </li>
+                    <li>
+    				<label for="cep">CEP</label>
+    				<input type="text" name="cep" placeholder="40101010" required/>		   
+    				</li>
+                    <li>
+    				<li>
+    				<label for="estado">Estado</label>
+    				<select>
+  					 <option value="AC" selected>AC</option>
+  					 <option value="AL">AL</option>
+  					 <option value="AP">AP</option>
+                     <option value="AM">AM</option>
+  					 <option value="BA">BA</option>
+  					 <option value="CE">CE</option>
+                     <option value="DF">DF</option>
+  					 <option value="ES">ES</option>
+  					 <option value="GO">GO</option>
+                     <option value="MA">MA</option>
+  					 <option value="MT">MT</option>
+  					 <option value="MS">MS</option>
+                     <option value="MG">MG</option>
+  					 <option value="PA">PA</option>
+                     <option value="PB">PB</option>
+  					 <option value="PR">PR</option>
+  					 <option value="PE">PE</option>
+                     <option value="PI">PI</option>
+                     <option value="RJ">RJ</option>
+  					 <option value="RN">RN</option>
+  					 <option value="RS">RS</option>
+                     <option value="RO">RO</option>
+  					 <option value="RR">RR</option>
+                     <option value="SC">SC</option>
+  					 <option value="SP">SP</option>
+  					 <option value="SE">SE</option>
+                     <option value="TO">TO</option>
+				    </select>
+    				</li>
+    				<label for="cidade">Cidade</label>
+    				<input type="text" name="cidade" placeholder="Bauru" required/>		  
+    				</li>
+                    <li>
+    				<label for="rua">Rua/Avenida</label>
+    				<input type="text" name="rua" placeholder="Salgado Filho" required/>		  
+    				</li>
+                    <li>
+    				<label for="num">Número</label>
+    				<input type="text" name="num" placeholder="669" required/>		  
+    				</li>
+				    <li>
+    					<button class="sign" type="submit">Cadastrar</button>
+				    </li>
+			</ul>
+                    </form>
+                </div>
+            </div>
+
+					<div class="topHeader">
+						<div id="headerContainer" class="row expandMe expanded">
+							<!-- Logo Area Starts -->
+							<div id="logo" class="small-8 medium-3 large-5 columns">
+								<a href="index.html"><img src="imgs/logo.png" alt="Logo Image" width="15%"></a>
+							</div>
+							<!-- Logo Area Ends -->
+
+							<!-- Main Navigation Menu Starts -->
+							<nav class="small-12 medium-9 large-7 columns">
+								<ul class="primaryMenu right">
+									<li><a class="link" href="login.html">Login</a></li>
+									<li><a href="signup.html" class="selected">Cadastre-se</a></li>
+									<li><a class="link" href="about.html">Sobre nós</a></li>
+									<li><a class="link" href="contact.html">Contato</a></li>
+								</ul>
+							</nav>
+							<!-- Main Navigation Menu Ends -->
+						</div>
+					</div>
+		</header>
+		<script src="js/modernizr.js"></script>
+		<script src="js/sticky-header.js"></script>
+	</body>
+</html>

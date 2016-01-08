@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+        		<meta name="viewport" content="width=device-width, initial-scale=1">
+        		<link rel="stylesheet" href="css/base.css">
+        		<link href='http://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700|' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/profile.css" />
+		
+        		<title> Profile </title>
+	</head>
+	<body>
+		<div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+  			<div></div>
+  			<div></div>
+  			<div></div>
+		</div>
+		<nav>
+  			<div class="logo"> <img src="imgs/profile.png"> </div>
+  			<div class="links"> <a class="active" href="">Home</a> <a href="notes.html">Notes</a> <a href="#">Settings</a> <a href="login.html">Logout</a> </div>
+		</nav>
+        <div id="main">
+            <div class="blocks">
+                <form class="contact_form" action="" method="post" name="contact_form">
+			         <ul>
+    				    <li>
+         					<h2 style="background-color:">Nota 1</h2>
+    				    </li>	
+    				    <li>
+    				
+        					<label for="date">Data:</label>
+        					<input type="" id="calendario" value="20-02-2008" readonly  disabled/>
+                        </li>
+    				    <li>
+    				        <label for="tipo">Tipo de abuso:</label>
+    				        <input type="text" id="tipo" value="Mental" readonly disabled/>
+                        </li>
+    				    <li>
+    				        <label for="local">Local</label>
+    				        <input type="text" id="local" value="Residência" readonly disabled/>
+    				    </li>
+				        <li>
+    					   <label for="message">Message:</label>
+    					   <textarea name="message" cols="100" rows="10" disabled>#‎meuamigosecreto‬ morou comigo por 2 anos...
+Ele falou que eu não era capaz de nada, muito menos de ter uma filha, por isso ela morreu. Meu amigo secreto mandou eu me matar, pois eu não servia para nada, me empurrou contra a parede, levou todas as coisas embora de casa! Meu amigo secreto me proibia se usar algumas roupas e me agredia verbalmente. Meu amigo secreto me chamou de lixo várias vezes e me ignorou por não querer manter relações com ele. Meu amigo secreto por muitas vezes me fez querer morrer, me chamando de criança imatura, me tratou tão mal frown emoticon. E hoje meu amigo secreto fala para todo mundo o quão ruim eu era por não limpar a casa, não lavar a louça e por não passar a roupa! Meu amigo secreto acabou com minha auto estima, me tornou uma pessoa revoltada e medrosa, me deixou traumatizada! Meu amigo secreto trabalha perto de mim e tem os mesmos amigos, mas me bloqueou no facebook! Meu amigo secreto me chama de vadia, pelo simples fato de ser feminista! E eu sei que esse amigo secreto vai saber disso e vai falar mais mal ainda e inventar mentiras! Amigo secreto, você me deixou dentro de uma casa sozinha só com uma cama! Até a lâmpada da sala você levou!</textarea>
+                            <li>
+                                <button class="submit" type="submit">Editar</button>
+                            </li>
+				        </li>
+			         </ul>
+                    </form>
+            </div>
+            <div class="blocks">
+                <form class="contact_form" action="" method="post" name="contact_form">
+			         <ul>
+    				    <li>
+         					<h2 style="background-color:">Nota 2</h2>
+    				    </li>	
+    				    <li>
+    				
+        					<label for="date">Data:</label>
+        					<input type="" id="calendario" value="20-02-1994" readonly  disabled/>
+                        </li>
+    				    <li>
+    				        <label for="tipo">Tipo de abuso:</label>
+    				        <input type="text" id="tipo" value="Físico" readonly disabled/>
+                        </li>
+    				    <li>
+    				        <label for="local">Local</label>
+    				        <input type="text" id="local" value="Residência" readonly disabled/>
+    				    </li>
+				        <li>
+    					   <label for="message">Message:</label>
+    					   <textarea name="message" cols="100" rows="10" disabled>#‎meuamigosecreto‬ me fez acreditar que, por ser meu melhor amigo, poderia fazer o que quisesse comigo. Esse mesmo amigo me fez acreditar que, quando eu bebi demais, dei a ele o direito de violar o meu corpo. Ele tentou me convencer que eu quis algo que eu nem ao menos tinha consciência para decidir e se dizia um ótimo amigo, porque "cuidava" de mim bêbada. E ainda me fez acreditar que "ajoelhou, tem que rezar". Ele destruiu a minha auto estima, fazendo sempre questão de lembrar o quanto as minhas amigas eram mais bonitas que eu e apontando os meus mais sutis "defeitos". Meu amigo secreto me fez sentir culpa e nojo de mim mesma, deixando marcas que eu ainda não superei, mas eu sigo sobrevivendo e lutando até que todas sejamos livres.</textarea>
+				        </li>
+                        <li>
+                                					<button class="submit" type="submit">Editar</button>
+                        </li>
+			         </ul>
+                </form>
+            </div>
+        </div>
+    
+		<script>
+			function toggleSidenav() {
+  				document.body.classList.toggle('sidenav-active');
+			}
+		</script>
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-46156385-1', 'cssscript.com');
+  			ga('send', 'pageview');
+		</script>
+	</body>
+</html>

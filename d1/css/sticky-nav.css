@@ -1,0 +1,297 @@
+
+.lightGreen {
+	color: #A2CC89;
+}
+.txtWhite {
+	color: #f8f8f8;
+}
+.small-text {
+	font-size: 0.875rem;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #c0c0c0;
+}
+
+h1,
+h3,
+p,
+a,
+div,
+li {
+	font-family: 'Lato', sans-serif;
+	color: #324252;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #324252;
+}
+
+h3 {
+	font-size: 1.5rem;
+	padding-bottom: 15px;
+}
+
+p {
+	font-size: 1rem;
+}
+
+.hgroup h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, 1);
+}
+
+.hgroup h1,
+h3,
+li,
+a,
+p {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+a,
+p,
+li {
+	text-transform: initial;
+}
+
+
+.relPosition {
+	position: relative;
+}
+
+.vertical-center {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.content {
+	padding: 80px 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+
+.topHeader {
+	width: 100%;
+	z-index: 11;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	height: auto;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+header {
+	min-height: 100%;
+}
+
+#dummy > div {
+	padding-bottom: 20px;
+}
+
+
+/* Background Images & Overlays
+-----------------------------------------------------------------*/
+
+header {
+	background: url('../imgs/background.jpg') no-repeat top center;
+	background-size: cover;
+	height: 480px;
+}
+
+
+
+
+/* Footer Section Styles
+-----------------------------------------------------------------*/
+
+footer {
+	background-color: #2a3541;
+}
+
+
+/* ==============================================================
+							MEDIA QUERIES
+================================================================= */
+
+/* Medium Screens
+-----------------------------------------------------------------*/
+@media only screen and (min-width: 40.063em) {
+
+	header {
+		height: 680px;
+	}
+
+	.hgroup h1 {
+		font-size: 2.95rem;
+		font-weight: 700;
+	}
+
+	#logo {
+		padding-top: 5px;
+	}
+
+	.txtCols {
+		width: 80%;
+	}
+
+}
+
+/* Large Screens
+-----------------------------------------------------------------*/
+@media only screen and (min-width: 64.063em) {
+
+  	header {
+		height: 600px;
+		background-attachment: fixed;
+	}
+
+	.hgroup h1:before,
+	.hgroup h1:after {
+		display: block;
+	  	position: absolute;
+	  	content: "";
+	  	/*background: none repeat scroll 0 0 #f8f8f8;*/
+	  	top: 20px;
+	  	left: 180px;
+	  	width: 180px;
+	  	height: 2px;
+	}
+
+	.hgroup h1:after {
+	  	right: 180px;
+	  	left: auto;
+	}
+	  
+	.topHeader {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 100%;
+	}
+
+  	#logo {
+    	padding-left: 0;
+  	}
+
+
+	/* Desktop Navigation */
+  
+	nav ul {
+	  margin-bottom: 0;
+	  margin-left: 1rem;
+	}
+	  
+	.primaryMenu li {
+	   display: inline-block;
+	}
+
+	.primaryMenu li a {
+	   display: block;
+	   padding: 30px 18px;
+	   font-size: 1rem;
+	}
+
+}
+
+.expandMe {
+	transition: all 0.5s ease 0.1s;
+}
+
+.expanded {
+	padding: 30px 0;
+}
+
+
+/*----login-------*/
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-top: 10px solid #ff656c;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block button {
+    width: 100%;
+    height: 50px;
+    background: #ff656c;
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: 1px solid #e15960;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #ff7b81;
+}
+/*----login-------*/
+
+/*----profile-------*/
+
+/*----profile-------*/
